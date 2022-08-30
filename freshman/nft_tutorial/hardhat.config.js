@@ -7,7 +7,7 @@ const PRIVATE_KEY = process.env.PRIVATE_KEY;
 
 module.exports = {
   solidity: "0.8.9",
-  defaultNetwork: "rinkeby",
+  defaultNetwork: "goerli",
   networks: {
     hardhat: {},
     rinkeby: {
